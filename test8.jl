@@ -30,3 +30,8 @@ d1 = Dict(t)
 @show d1
 d2 = Dict(zip("abc", [1, 2, 3]))
 @show d2
+tuples_as_keys = Dict(zip([("Gandhi", "Mohan"), ("Einstein", "Albert")], [1, 2]))
+@show tuples_as_keys
+for ((l, f), v) in tuples_as_keys
+    println("$f $l $v")
+end
