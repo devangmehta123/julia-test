@@ -1,4 +1,4 @@
-known = Dict(0=>0, 1=>1)
+const known = Dict(0=>0, 1=>1)
 function fibonacci(n)
     if n ∈ keys(known)
         return known[n]
