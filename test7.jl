@@ -1,5 +1,5 @@
-const known = Dict(0=>0, 1=>1)
 function fibonacci(n)
+    known = Dict(0 => 0, 1 => 1)
     if n ∈ keys(known)
         return known[n]
     end
@@ -7,7 +7,3 @@ function fibonacci(n)
     known[n] = res
     res
 end
-println(fibonacci(20))
-println(fibonacci(30))
-println(fibonacci(40))
-println(fibonacci(50))
