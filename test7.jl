@@ -9,3 +9,4 @@ function fibonacci(n)
 end
 println(fibonacci(20))
 println(fibonacci(30))
+println(fibonacci(40))
