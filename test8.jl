@@ -35,3 +35,8 @@ tuples_as_keys = Dict(zip([("Gandhi", "Mohan"), ("Einstein", "Albert")], [1, 2])
 for ((l, f), v) in tuples_as_keys
     println("$f $l $v")
 end
+function opt_args(x, y=15)
+    @show x y
+end
+opt_args(10)
+opt_args(10, 20)
