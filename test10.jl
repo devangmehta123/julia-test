@@ -19,4 +19,6 @@ end
 
 @show addtime(time, time2)
 
-@test 0 < 1
+@show @test 0 < 1
+
+@show @which sort!([5, 3, 4, 6])
