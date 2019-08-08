@@ -1,3 +1,5 @@
+using Test
+
 """
 Represents the time of day.
 
@@ -16,3 +18,5 @@ function addtime(t1, t2)
 end
 
 @show addtime(time, time2)
+
+@test 0 < 1
